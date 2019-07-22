@@ -6,3 +6,4 @@
 	* 构建springboot-web项目
 	* 添加mysql、logging配置
 	* 添加用户管理api测试
+	* 添加mybatis配置
