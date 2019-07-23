@@ -7,3 +7,6 @@
 	* 添加mysql、logging配置
 	* 添加用户管理api测试
 	* 添加mybatis配置
+
+#### 【2019-07-23】
+	* 添加mybatis-generator插件
