@@ -216,4 +216,16 @@ public class ApiUser implements Serializable {
     public void setDeleteStatus(Integer deleteStatus) {
         this.deleteStatus = deleteStatus;
     }
+
+    @Override
+    public String toString() {
+        return "ApiUser{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                ", passWord='" + passWord + '\'' +
+                ", addTime=" + addTime +
+                ", lastUpdateTime=" + lastUpdateTime +
+                ", deleteStatus=" + deleteStatus +
+                '}';
+    }
 }
