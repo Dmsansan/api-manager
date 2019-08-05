@@ -59,7 +59,12 @@ export default {
         { value: 135, name: '视频广告' },
         { value: 1548, name: '搜索引擎' }
       ],
-      barData: {
+      barData: null
+    }
+  },
+  methods: {
+    resize () {
+      this.barData = {
         Mon: 13253,
         Tue: 34235,
         Wed: 26321,
@@ -67,11 +72,12 @@ export default {
         Fri: 24643,
         Sat: 1322,
         Sun: 1324
-      }
+      };
     }
   },
   mounted () {
-    //
+    //默认加载函数
+    this.resize()
   }
 }
 </script>

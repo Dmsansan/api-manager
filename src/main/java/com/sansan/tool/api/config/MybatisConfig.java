@@ -13,7 +13,7 @@ public class MybatisConfig {
     public MapperScannerConfigurer mapperScannerConfigurer() {
         MapperScannerConfigurer mapperScannerConfigurer = new MapperScannerConfigurer();
         mapperScannerConfigurer.setSqlSessionFactoryBeanName("sqlSessionFactory");
-        mapperScannerConfigurer.setBasePackage("com.sansan.tool.api.user.mapper");// mapper package namespace，此处指定不起作用
+        mapperScannerConfigurer.setBasePackage("com.sansan.tool.api.*.mapper");// mapper package namespace，此处指定不起作用
         return mapperScannerConfigurer;
     }
 }
