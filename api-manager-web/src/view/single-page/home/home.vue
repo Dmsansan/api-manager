@@ -33,6 +33,7 @@ import InforCard from '_c/info-card'
 import CountTo from '_c/count-to'
 import { ChartPie, ChartBar } from '_c/charts'
 import Example from './example.vue'
+import {initIndexData} from '@/api/home.js'
 export default {
   name: 'home',
   components: {
@@ -59,25 +60,22 @@ export default {
         { value: 135, name: '视频广告' },
         { value: 1548, name: '搜索引擎' }
       ],
-      barData: null
-    }
-  },
-  methods: {
-    resize () {
-      this.barData = {
-        Mon: 13253,
-        Tue: 34235,
-        Wed: 26321,
-        Thu: 12340,
-        Fri: 24643,
-        Sat: 1322,
-        Sun: 1324
-      };
+      barData: {}
     }
   },
   mounted () {
-    //默认加载函数
-    this.resize()
+    //
+    this.initIndexData();
+  },
+  methods: {
+    initIndexData(){
+      this.barData = {};
+      initIndexData().then(res => {
+        this.barData = res.data;
+      });
+
+      console.log(this.barData)
+    }
   }
 }
 </script>

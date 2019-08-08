@@ -1,449 +1,519 @@
-2019/08/05-13:48 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 6464 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-13:48 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-13:48 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-13:49 [main] INFO  com.sansan.tool.api.ApiApplication- Started ApiApplication in 20.647 seconds (JVM running for 44.447)
-2019/08/05-13:49 [http-nio-8080-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2019/08/05-13:49 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==>  Preparing: select count(*) from api_user WHERE ( delete_status = ? ) 
-2019/08/05-13:49 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==> Parameters: 0(Integer)
-2019/08/05-13:49 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- <==      Total: 1
-2019/08/05-13:49 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.service.impl.UserInfoServiceImpl- 查询用户数据总记录数：2
-2019/08/05-13:49 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==>  Preparing: select id, user_name, pass_word, add_time, last_update_time, delete_status from api_user WHERE ( delete_status = ? ) order by add_time desc 
-2019/08/05-13:49 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==> Parameters: 0(Integer)
-2019/08/05-13:49 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- <==      Total: 2
-2019/08/05-13:49 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==>  Preparing: select count(*) from api_user WHERE ( delete_status = ? ) 
-2019/08/05-13:49 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==> Parameters: 0(Integer)
-2019/08/05-13:49 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- <==      Total: 1
-2019/08/05-13:49 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.service.impl.UserInfoServiceImpl- 查询用户数据总记录数：2
-2019/08/05-13:49 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==>  Preparing: select id, user_name, pass_word, add_time, last_update_time, delete_status from api_user WHERE ( delete_status = ? ) order by add_time desc 
-2019/08/05-13:49 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==> Parameters: 0(Integer)
-2019/08/05-13:49 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- <==      Total: 2
-2019/08/05-14:01 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 17788 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-14:01 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-14:01 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-14:01 [main] INFO  com.sansan.tool.api.ApiApplication- Started ApiApplication in 11.105 seconds (JVM running for 17.576)
-2019/08/05-14:01 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2019/08/05-14:01 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==>  Preparing: select count(*) from api_user WHERE ( delete_status = ? ) 
-2019/08/05-14:01 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==> Parameters: 0(Integer)
-2019/08/05-14:01 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- <==      Total: 1
-2019/08/05-14:01 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.service.impl.UserInfoServiceImpl- 查询用户数据总记录数：2
-2019/08/05-14:01 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==>  Preparing: select id, user_name, pass_word, add_time, last_update_time, delete_status from api_user WHERE ( delete_status = ? ) order by add_time desc 
-2019/08/05-14:01 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==> Parameters: 0(Integer)
-2019/08/05-14:01 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- <==      Total: 2
-2019/08/05-14:01 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /swagger-ui.html
-2019/08/05-14:01 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /swagger-ui.html
-2019/08/05-14:01 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /swagger-ui.html
-2019/08/05-14:02 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 1388 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-14:02 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-14:02 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-14:02 [main] INFO  com.sansan.tool.api.ApiApplication- Started ApiApplication in 9.192 seconds (JVM running for 13.999)
-2019/08/05-14:04 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2019/08/05-14:04 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==>  Preparing: select count(*) from api_user WHERE ( delete_status = ? ) 
-2019/08/05-14:04 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==> Parameters: 0(Integer)
-2019/08/05-14:04 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- <==      Total: 1
-2019/08/05-14:04 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.user.service.impl.UserInfoServiceImpl- 查询用户数据总记录数：2
-2019/08/05-14:04 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==>  Preparing: select id, user_name, pass_word, add_time, last_update_time, delete_status from api_user WHERE ( delete_status = ? ) order by add_time desc 
-2019/08/05-14:04 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==> Parameters: 0(Integer)
-2019/08/05-14:04 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- <==      Total: 2
-2019/08/05-14:05 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 12988 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-14:05 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-14:05 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-14:05 [main] INFO  com.sansan.tool.api.ApiApplication- Started ApiApplication in 8.546 seconds (JVM running for 12.678)
-2019/08/05-14:05 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /swagger-ui.html
-2019/08/05-14:06 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /templates/swagger-ui.html
-2019/08/05-14:06 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 3816 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-14:06 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-14:06 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-14:06 [main] INFO  com.sansan.tool.api.ApiApplication- Started ApiApplication in 11.315 seconds (JVM running for 15.939)
-2019/08/05-16:18 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 15624 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-16:18 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-16:18 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-16:18 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'indexService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexServiceImpl': Unsatisfied dependency expressed through field 'indexMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sansan.tool.api.index.mapper.IndexMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2019/08/05-16:18 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field indexMapper in com.sansan.tool.api.index.service.impl.IndexServiceImpl required a bean of type 'com.sansan.tool.api.index.mapper.IndexMapper' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.sansan.tool.api.index.mapper.IndexMapper' in your configuration.
-
-2019/08/05-16:20 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 19168 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-16:20 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-16:20 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-16:20 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'indexService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexServiceImpl': Unsatisfied dependency expressed through field 'indexMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sansan.tool.api.index.mapper.IndexMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2019/08/05-16:20 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field indexMapper in com.sansan.tool.api.index.service.impl.IndexServiceImpl required a bean of type 'com.sansan.tool.api.index.mapper.IndexMapper' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.sansan.tool.api.index.mapper.IndexMapper' in your configuration.
-
-2019/08/05-16:22 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 18532 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-16:22 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-16:22 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-16:22 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'indexService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexServiceImpl': Unsatisfied dependency expressed through field 'indexMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sansan.tool.api.index.mapper.IndexMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2019/08/05-16:22 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field indexMapper in com.sansan.tool.api.index.service.impl.IndexServiceImpl required a bean of type 'com.sansan.tool.api.index.mapper.IndexMapper' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.sansan.tool.api.index.mapper.IndexMapper' in your configuration.
-
-2019/08/05-16:25 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 10020 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-16:25 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-16:25 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-16:25 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userInfoController': Unsatisfied dependency expressed through field 'userInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userInfoServiceImpl': Unsatisfied dependency expressed through field 'apiUserMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sansan.tool.api.user.mapper.ApiUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2019/08/05-16:25 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field apiUserMapper in com.sansan.tool.api.user.service.impl.UserInfoServiceImpl required a bean of type 'com.sansan.tool.api.user.mapper.ApiUserMapper' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.sansan.tool.api.user.mapper.ApiUserMapper' in your configuration.
-
-2019/08/05-16:25 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 6360 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-16:25 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-16:25 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-16:25 [main] INFO  com.sansan.tool.api.ApiApplication- Started ApiApplication in 8.725 seconds (JVM running for 12.951)
-2019/08/05-16:26 [http-nio-8080-exec-2] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Illegal pattern character 'I'] with root cause
-java.lang.IllegalArgumentException: Illegal pattern character 'I'
-	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826)
-	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634)
-	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605)
-	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580)
-	at com.sansan.tool.api.util.DateUtils.getFirstAndLastOfWeek(DateUtils.java:19)
-	at com.sansan.tool.api.index.controller.IndexController.initIndexData(IndexController.java:29)
-	at sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:45005)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-2019/08/05-16:27 [http-nio-8080-exec-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.text.ParseException: Unparseable date: "Mon Aug 05 16:27:47 CST 2019"] with root cause
-java.text.ParseException: Unparseable date: "Mon Aug 05 16:27:47 CST 2019"
-	at java.text.DateFormat.parse(DateFormat.java:366)
-	at com.sansan.tool.api.util.DateUtils.getFirstAndLastOfWeek(DateUtils.java:19)
-	at com.sansan.tool.api.index.controller.IndexController.initIndexData(IndexController.java:29)
-	at sun.reflect.GeneratedMethodAccessor70.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:45005)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-2019/08/05-16:29 [http-nio-8080-exec-5] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.text.ParseException: Unparseable date: "1564993769458"] with root cause
-java.text.ParseException: Unparseable date: "1564993769458"
-	at java.text.DateFormat.parse(DateFormat.java:366)
-	at com.sansan.tool.api.util.DateUtils.getFirstAndLastOfWeek(DateUtils.java:19)
-	at com.sansan.tool.api.index.controller.IndexController.initIndexData(IndexController.java:29)
-	at sun.reflect.GeneratedMethodAccessor76.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:45005)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-2019/08/05-16:30 [http-nio-8080-exec-10] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.text.ParseException: Unparseable date: "1564993769458000"] with root cause
-java.text.ParseException: Unparseable date: "1564993769458000"
-	at java.text.DateFormat.parse(DateFormat.java:366)
-	at com.sansan.tool.api.util.DateUtils.getFirstAndLastOfWeek(DateUtils.java:19)
-	at com.sansan.tool.api.index.controller.IndexController.initIndexData(IndexController.java:29)
-	at sun.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:45005)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-2019/08/05-16:56 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2019/08/05-16:56 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies 
-2019/08/05-16:56 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 
-2019/08/05-16:56 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 1
-2019/08/05-17:01 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 1652 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
-2019/08/05-17:01 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019/08/05-17:01 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
-2019/08/05-17:01 [main] INFO  com.sansan.tool.api.ApiApplication- Started ApiApplication in 8.387 seconds (JVM running for 14.133)
-2019/08/05-17:02 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2019/08/05-17:02 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:02 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:02 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 1
-2019/08/05-17:18 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:18 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:18 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:18 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:18 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:18 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:18 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:18 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:18 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:18 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:18 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:18 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:18 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:18 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:18 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:18 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:18 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:18 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:18 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:18 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:18 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:18 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:18 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:18 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:25 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:25 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:25 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:54 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:54 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:54 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:54 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:54 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:54 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:54 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s768ms214µs611ns).
-2019/08/05-17:56 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:56 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:56 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:57 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s994ms213µs568ns).
-2019/08/05-17:57 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:57 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:57 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:57 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:57 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:57 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:57 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:57 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:57 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
-2019/08/05-17:59 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
-2019/08/05-17:59 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
-2019/08/05-17:59 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-10:04 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 18536 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
+2019/08/08-10:04 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019/08/08-10:04 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
+2019/08/08-10:04 [main] INFO  com.sansan.tool.api.ApiApplication- Started ApiApplication in 22.699 seconds (JVM running for 30.942)
+2019/08/08-10:06 [http-nio-8080-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019/08/08-10:06 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==>  Preparing: select count(*) from api_user WHERE ( delete_status = ? ) 
+2019/08/08-10:06 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==> Parameters: 0(Integer)
+2019/08/08-10:06 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- <==      Total: 1
+2019/08/08-10:06 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.service.impl.UserInfoServiceImpl- 查询用户数据总记录数：2
+2019/08/08-10:06 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==>  Preparing: select id, user_name, pass_word, add_time, last_update_time, delete_status from api_user WHERE ( delete_status = ? ) order by add_time desc 
+2019/08/08-10:06 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==> Parameters: 0(Integer)
+2019/08/08-10:06 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- <==      Total: 2
+2019/08/08-10:06 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==>  Preparing: select count(*) from api_user WHERE ( delete_status = ? ) 
+2019/08/08-10:06 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==> Parameters: 0(Integer)
+2019/08/08-10:06 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- <==      Total: 1
+2019/08/08-10:06 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.service.impl.UserInfoServiceImpl- 查询用户数据总记录数：2
+2019/08/08-10:06 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==>  Preparing: select id, user_name, pass_word, add_time, last_update_time, delete_status from api_user WHERE ( delete_status = ? ) order by add_time desc 
+2019/08/08-10:06 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==> Parameters: 0(Integer)
+2019/08/08-10:06 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- <==      Total: 2
+2019/08/08-10:26 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==>  Preparing: select count(*) from api_user WHERE ( delete_status = ? ) 
+2019/08/08-10:26 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- ==> Parameters: 0(Integer)
+2019/08/08-10:26 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.countByExample- <==      Total: 1
+2019/08/08-10:26 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.user.service.impl.UserInfoServiceImpl- 查询用户数据总记录数：2
+2019/08/08-10:26 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==>  Preparing: select id, user_name, pass_word, add_time, last_update_time, delete_status from api_user WHERE ( delete_status = ? ) order by add_time desc 
+2019/08/08-10:26 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- ==> Parameters: 0(Integer)
+2019/08/08-10:26 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.user.mapper.ApiUserMapper.selectByExample- <==      Total: 2
+2019/08/08-10:26 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-10:26 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-10:26 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-10:51 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-10:51 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-10:51 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-10:51 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-10:51 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-10:51 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-10:51 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-10:51 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-10:51 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:00 [main] INFO  com.sansan.tool.api.ApiApplication- Starting ApiApplication on DESKTOP-EJ4M200 with PID 22812 (D:\ProjectWorkPlace\api-manager\target\classes started by neusoft in D:\ProjectWorkPlace\api-manager)
+2019/08/08-11:00 [main] DEBUG com.sansan.tool.api.ApiApplication- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019/08/08-11:00 [main] INFO  com.sansan.tool.api.ApiApplication- No active profile set, falling back to default profiles: default
+2019/08/08-11:01 [main] INFO  com.sansan.tool.api.ApiApplication- Started ApiApplication in 17.868 seconds (JVM running for 28.583)
+2019/08/08-11:01 [http-nio-8080-exec-1] INFO  com.sansan.tool.api.filter.CorsFilter- *********************************过滤器被使用**************************
+2019/08/08-11:01 [http-nio-8080-exec-2] INFO  com.sansan.tool.api.filter.CorsFilter- *********************************过滤器被使用**************************
+2019/08/08-11:01 [http-nio-8080-exec-3] INFO  com.sansan.tool.api.filter.CorsFilter- *********************************过滤器被使用**************************
+2019/08/08-11:01 [http-nio-8080-exec-9] INFO  com.sansan.tool.api.filter.CorsFilter- *********************************过滤器被使用**************************
+2019/08/08-11:01 [http-nio-8080-exec-10] INFO  com.sansan.tool.api.filter.CorsFilter- *********************************过滤器被使用**************************
+2019/08/08-11:01 [http-nio-8080-exec-6] INFO  com.sansan.tool.api.filter.CorsFilter- *********************************过滤器被使用**************************
+2019/08/08-11:01 [http-nio-8080-exec-5] INFO  com.sansan.tool.api.filter.CorsFilter- *********************************过滤器被使用**************************
+2019/08/08-11:01 [http-nio-8080-exec-7] INFO  com.sansan.tool.api.filter.CorsFilter- *********************************过滤器被使用**************************
+2019/08/08-11:01 [http-nio-8080-exec-8] INFO  com.sansan.tool.api.filter.CorsFilter- *********************************过滤器被使用**************************
+2019/08/08-11:01 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.util.DriverDataSource- Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019/08/08-11:01 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:01 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:01 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:01 [http-nio-8080-exec-4] INFO  com.sansan.tool.api.filter.CorsFilter- *********************************过滤器被使用**************************
+2019/08/08-11:01 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:01 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:01 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:07 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:07 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:07 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:07 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:07 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:07 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:07 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:07 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:07 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:09 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:09 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:09 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:11 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:11 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:11 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:11 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:11 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:11 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:12 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:12 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:12 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:12 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:12 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:12 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:20 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:20 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:20 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:20 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:20 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:20 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:20 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:20 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:20 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:21 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:21 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:21 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-11:23 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-11:23 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-11:23 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:19 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h34m38s143ms620µs181ns).
+2019/08/08-13:29 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:29 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:29 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:30 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:30 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:30 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:30 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:30 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:30 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:30 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:30 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:30 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:31 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:31 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:31 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:31 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:31 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:31 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:31 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:31 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:31 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:31 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:31 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:31 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:34 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:34 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:34 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:34 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:34 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:34 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:38 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:38 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:38 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:38 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:38 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:38 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:41 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:41 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:41 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:43 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:43 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:43 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:44 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:44 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:44 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:44 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:44 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:44 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:44 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:44 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:44 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:44 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:44 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:44 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:47 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:47 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:47 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:50 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:50 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:50 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:50 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:50 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:50 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:50 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:50 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:50 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:50 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:50 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:50 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:51 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:51 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:51 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:53 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:53 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:53 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:55 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:55 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:55 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:55 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:55 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:55 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:56 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:56 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:56 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:56 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:56 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:56 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:57 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:57 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:57 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-13:58 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-13:58 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-13:58 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:02 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:02 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:02 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:03 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:03 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:03 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:08 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:08 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:08 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:08 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:08 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:08 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:09 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:09 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:09 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:16 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:16 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:16 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:18 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:18 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:18 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:24 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:24 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:24 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:25 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:25 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:25 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:27 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:27 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:27 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:27 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:27 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:27 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:27 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:27 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:27 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:29 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:29 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:29 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:29 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:29 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:29 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:30 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:30 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:30 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:30 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:30 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:30 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:30 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:30 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:30 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:42 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:42 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:42 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:43 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:43 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:43 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:43 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:43 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:43 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:43 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:43 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:43 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:43 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:43 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:43 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:44 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:44 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:44 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:44 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:44 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:44 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:44 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:44 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:44 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:44 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:44 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:44 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:44 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:44 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:44 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:44 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:44 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:44 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:44 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:44 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:44 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:44 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:44 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:44 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:47 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:47 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:47 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:47 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:47 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:47 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:47 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:47 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:47 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:47 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:47 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:47 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:49 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:49 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:49 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:49 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:49 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:49 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:49 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:49 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:49 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:49 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:49 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:49 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:49 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:49 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:49 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:49 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:49 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:49 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:49 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:49 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:49 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:49 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:49 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:49 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:54 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:54 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:54 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:54 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:54 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:54 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:55 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:55 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:55 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:56 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:56 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:56 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:56 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:56 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:56 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:57 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:57 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:57 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:57 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:57 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:57 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:57 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:57 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:57 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:57 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:57 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:57 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:58 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:58 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:58 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-14:58 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-14:58 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-14:58 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:03 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:03 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:03 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:03 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:03 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:03 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:03 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:03 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:03 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:03 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:03 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:03 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:03 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:03 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:03 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:04 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:04 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:04 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:04 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:04 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:04 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:05 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:05 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:05 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:05 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:05 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:05 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:05 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:05 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:05 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:05 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:05 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:05 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:05 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:05 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:05 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:06 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:06 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:06 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:07 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:07 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:07 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:08 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:08 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:08 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:08 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:08 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:08 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:08 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:08 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:08 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:09 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:09 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:09 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:09 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:09 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:09 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:09 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:09 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:09 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:10 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:10 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:10 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:10 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:10 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:10 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:10 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:10 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:10 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:11 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:11 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:11 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:11 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:11 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:11 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:12 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:12 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:12 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:13 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:13 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:13 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:13 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:13 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:13 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:13 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:13 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:13 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:14 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:14 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:14 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:14 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:14 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:14 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:16 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:16 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:16 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:22 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:22 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:22 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:22 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:22 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:22 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:22 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:22 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:22 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:22 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:22 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:22 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:23 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:23 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:23 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:39 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:39 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:39 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:39 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:39 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:39 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:39 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:39 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:39 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:40 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:40 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:40 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:40 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:40 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:40 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:40 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:40 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:40 [http-nio-8080-exec-4] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:42 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:42 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:42 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:42 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:42 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:42 [http-nio-8080-exec-2] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:43 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:43 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:43 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:46 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:46 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:46 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:46 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:46 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:46 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:46 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:46 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:46 [http-nio-8080-exec-6] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:47 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:47 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:47 [http-nio-8080-exec-8] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:48 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:48 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:48 [http-nio-8080-exec-1] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:48 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:48 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:48 [http-nio-8080-exec-3] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:51 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:51 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:51 [http-nio-8080-exec-9] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:51 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:51 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:51 [http-nio-8080-exec-10] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:51 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:51 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:51 [http-nio-8080-exec-5] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
+2019/08/08-15:51 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==>  Preparing: select id, user_id, login_ip, login_count, first_login_time, last_login_time from api_user_activies where 1=1 and last_login_time >= ? and last_login_time <= ? 
+2019/08/08-15:51 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- ==> Parameters: 2019-08-05 00:00:00.0(Timestamp), 2019-08-11 00:00:00.0(Timestamp)
+2019/08/08-15:51 [http-nio-8080-exec-7] DEBUG com.sansan.tool.api.index.mapper.IndexMapper.queryUserActivies- <==      Total: 4
