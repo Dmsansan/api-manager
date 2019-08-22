@@ -63,19 +63,14 @@ export default {
       barData: {}
     }
   },
-  mounted () {
-    //
-    this.initIndexData();
-  },
-  methods: {
-    initIndexData(){
-      this.barData = {};
-      initIndexData().then(res => {
-        this.barData = res.data;
-      });
+  methods : {
 
-      console.log(this.barData)
-    }
+  },
+  mounted () {
+    //初始化页面数据
+    initIndexData().then(res => {
+      this.barData = res.data;
+    })
   }
 }
 </script>

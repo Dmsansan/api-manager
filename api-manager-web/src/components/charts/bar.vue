@@ -19,13 +19,17 @@ export default {
       dom: null
     }
   },
+  watch: {
+	value: function (newVal){
+		this.updateData()
+	}
+  },
   methods: {
     resize () {
       this.dom.resize()
-    }
-  },
-  mounted () {
-    this.$nextTick(() => {
+    },
+	updateData () {
+	  this.$nextTick(() => {
       let xAxisData = Object.keys(this.value)
       let seriesData = Object.values(this.value)
       let option = {
@@ -50,6 +54,10 @@ export default {
       this.dom.setOption(option)
       on(window, 'resize', this.resize)
     })
+	}
+  },
+  mounted () {
+    this.updateData()
   },
   beforeDestroy () {
     off(window, 'resize', this.resize)
