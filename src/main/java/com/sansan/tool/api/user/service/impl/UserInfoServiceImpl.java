@@ -22,7 +22,7 @@ public class UserInfoServiceImpl implements UserInfoService {
     private ApiUserMapper apiUserMapper;
 
     @Override
-    public String getUser() {
+    public List<ApiUser> getUser() {
         ApiUserExample apiUserExample = new ApiUserExample();
         apiUserExample.createCriteria().andDeleteStatusEqualTo(0);
         apiUserExample.setOrderByClause("add_time desc");
@@ -32,7 +32,7 @@ public class UserInfoServiceImpl implements UserInfoService {
 
         apiUserExample.createCriteria().andIdBetween(0,1);
         List<ApiUser> userInfo = apiUserMapper.selectByExample(apiUserExample);
-        return userInfo.toString();
+        return userInfo;
     }
 
 
