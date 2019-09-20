@@ -3,7 +3,7 @@
 B/S架构
 
 #### 前端
- iView-admin后台管理框架[参考文档](http://v1.iviewui.com/docs/guide/introduce)
+ iView-admin后台管理框架  [参考文档](http://v1.iviewui.com/docs/guide/introduce)
  
  * 启动：进入api-manager-web目录，运行npm run dev
  
