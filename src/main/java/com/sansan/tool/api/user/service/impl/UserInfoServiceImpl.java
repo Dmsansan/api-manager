@@ -40,5 +40,33 @@ public class UserInfoServiceImpl implements UserInfoService {
         apiUserMapper.insert(apiUser);
     }
 
+    @Override
+    public ApiUser findByUsername(ApiUser user) {
+        ApiUserExample apiUserExample = new ApiUserExample();
+        apiUserExample.createCriteria()
+                .andDeleteStatusEqualTo(0)
+                .andUserNameEqualTo(user.getUserName());
+
+        List<ApiUser> apiUsers = apiUserMapper.selectByExample(apiUserExample);
+        if (apiUsers.size()>0) {
+            return apiUsers.get(0);
+        }
+        return new ApiUser();
+    }
+
+    @Override
+    public ApiUser findUserById(String userId) {
+        ApiUserExample apiUserExample = new ApiUserExample();
+        apiUserExample.createCriteria()
+                .andDeleteStatusEqualTo(0)
+                .andIdEqualTo(Integer.valueOf(userId));
+
+        List<ApiUser> apiUsers = apiUserMapper.selectByExample(apiUserExample);
+        if (apiUsers.size()>0) {
+            return apiUsers.get(0);
+        }
+        return new ApiUser();
+    }
+
 
 }

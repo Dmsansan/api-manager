@@ -9,3 +9,5 @@ B/S架构
  
 #### 后端
  springboot+mybatis+springcloud微服务架构框架
+ 
+ * 启动：直接运行ApiApplication.java启动类
