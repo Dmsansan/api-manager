@@ -35,5 +35,10 @@ public class UserInfoServiceImpl implements UserInfoService {
         return userInfo;
     }
 
+    @Override
+    public void addUser(ApiUser apiUser){
+        apiUserMapper.insert(apiUser);
+    }
+
 
 }

@@ -7,4 +7,6 @@ import java.util.List;
 public interface UserInfoService {
 
     List<ApiUser> getUser();
+
+    void addUser(ApiUser apiUser);
 }
