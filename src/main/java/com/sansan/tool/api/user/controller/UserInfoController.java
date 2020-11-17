@@ -32,6 +32,7 @@ public class UserInfoController {
     @Autowired
     private TokenService tokenService;
 
+    @UserLoginToken
     @ApiOperation(value = "getUserInfo", notes = "获取用户数据")
     @RequestMapping(value = "/getUserInfo", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public List<ApiUser> getUserInfo(){
@@ -39,6 +40,7 @@ public class UserInfoController {
     }
 
 
+    @UserLoginToken
     @ApiOperation(value = "addUserInfo", notes = "添加用户数据")
     @RequestMapping(value = "/addUserInfo", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     public void addUserInfo(@RequestBody ApiUser apiUser){
