@@ -74,14 +74,17 @@ export default {
   },
   actions: {
     // 登录
-    handleLogin ({ commit }, { userName, password }) {
+    handleLogin ({ commit }, { userName, passWord }) {
       userName = userName.trim()
+      passWord = passWord.trim()
+      
       return new Promise((resolve, reject) => {
         login({
           userName,
-          password
+          passWord
         }).then(res => {
           const data = res.data
+          console.info("后台返回的数据：", data)
           commit('setToken', data.token)
           resolve()
         }).catch(err => {

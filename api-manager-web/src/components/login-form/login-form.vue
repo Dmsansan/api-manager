@@ -7,8 +7,8 @@
         </span>
       </Input>
     </FormItem>
-    <FormItem prop="password">
-      <Input type="password" v-model="form.password" placeholder="请输入密码">
+    <FormItem prop="passWord">
+      <Input type="password" v-model="form.passWord" placeholder="请输入密码">
         <span slot="prepend">
           <Icon :size="14" type="md-lock"></Icon>
         </span>
@@ -31,7 +31,7 @@ export default {
         ]
       }
     },
-    passwordRules: {
+    passWordRules: {
       type: Array,
       default: () => {
         return [
@@ -43,8 +43,8 @@ export default {
   data () {
     return {
       form: {
-        userName: 'super_admin',
-        password: ''
+        userName: 'admin',
+        passWord: 'admin'
       }
     }
   },
@@ -52,7 +52,7 @@ export default {
     rules () {
       return {
         userName: this.userNameRules,
-        password: this.passwordRules
+        passWord: this.passWordRules
       }
     }
   },
@@ -62,7 +62,7 @@ export default {
         if (valid) {
           this.$emit('on-success-valid', {
             userName: this.form.userName,
-            password: this.form.password
+            passWord: this.form.passWord
           })
         }
       })

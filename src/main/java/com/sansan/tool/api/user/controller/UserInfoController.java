@@ -11,10 +11,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
@@ -49,7 +46,7 @@ public class UserInfoController {
 
     @ApiOperation(value = "login", notes = "用户登录")
     @RequestMapping(value = "/login", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-    public Object login(ApiUser user, HttpServletResponse response) {
+    public Object login(@RequestBody ApiUser user, HttpServletResponse response) {
         JSONObject jsonObject = new JSONObject();
         ApiUser userForBase = new ApiUser();
         userForBase.setId(userInfoService.findByUsername(user).getId());
