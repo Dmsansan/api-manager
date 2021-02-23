@@ -77,4 +77,13 @@ public class UserInfoController {
 
         return "您已通过验证";
     }
+
+    @ApiOperation(value = "logout", notes = "退出登录")
+    @RequestMapping(value = "/logout", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+    public String logout() {
+        Cookie cookie = new Cookie("token", null);
+        cookie.setPath("/");
+
+        return "登出成功";
+    }
 }

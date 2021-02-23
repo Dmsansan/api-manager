@@ -27,16 +27,16 @@
                 password="${spring.datasource.password}"/>
 
         <!-- 生成POJO对象，并将类放到com.songguoliang.springboot.entity包下 -->
-        <javaModelGenerator targetPackage="com.sansan.tool.api.entity.user" targetProject="src/main/java"></javaModelGenerator>
+        <javaModelGenerator targetPackage="com.sansan.tool.api.entity.userAct" targetProject="src/main/java"></javaModelGenerator>
         <!-- 生成mapper xml文件，并放到resources下的mapper文件夹下 -->
         <sqlMapGenerator targetPackage="mybatis"  targetProject="src/main/resources"></sqlMapGenerator>
 
 
         <!-- 生成mapper xml对应dao接口，放到com.songguoliang.springboot.mapper包下-->
-        <javaClientGenerator targetPackage="com.sansan.tool.api.user.mapper" targetProject="src/main/java" type="XMLMAPPER"></javaClientGenerator>
+        <javaClientGenerator targetPackage="com.sansan.tool.api.userAct.mapper" targetProject="src/main/java" type="XMLMAPPER"></javaClientGenerator>
 
         <!-- table标签可以有多个，至少一个，tableName指定表名，可以使用_和%通配符 -->
-        <table tableName="api_user">
+        <table tableName="api_user_activies">
             <!-- 是否只生成POJO对象 -->
             <property name="modelOnly" value="false"/>
             <!-- 数据库中表名有时我们都会带个前缀，而实体又不想带前缀，这个配置可以把实体的前缀去掉 -->

@@ -16,10 +16,7 @@ export const getUserInfo = (token) => {
   return axios.request({
     url: 'user/getMessage',
     params: {
-    
-    },
-    headers: {
-       'token': token, 
+      'token':token
     },
     method: 'get'
   })
@@ -27,7 +24,7 @@ export const getUserInfo = (token) => {
 
 export const logout = (token) => {
   return axios.request({
-    url: 'logout',
+    url: 'user/logout',
     method: 'post'
   })
 }

@@ -114,6 +114,7 @@ export default {
         try {
           getUserInfo(state.token).then(res => {
             const data = res.data
+            console.log("获取用户信息"+data)
             commit('setAvatar', data.avatar)
             commit('setUserName', data.name)
             commit('setUserId', data.user_id)

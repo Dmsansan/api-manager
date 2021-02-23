@@ -1,6 +1,7 @@
 package com.sansan.tool.api.util;
 
 import com.auth0.jwt.JWT;
+import org.springframework.util.StringUtils;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
@@ -15,6 +16,9 @@ public class TokenUtil {
     public static String getTokenUserId() {
         // 从 http 请求头中取出 token
         String token = getRequest().getHeader("token");
+        if(StringUtils.isEmpty(token)){
+            token = getRequest().getParameter("token");
+        }
         String userId = JWT.decode(token).getAudience().get(0);
         return userId;
     }

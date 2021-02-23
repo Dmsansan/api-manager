@@ -10,6 +10,7 @@ import com.sansan.tool.api.annotation.UserLoginToken;
 import com.sansan.tool.api.entity.user.ApiUser;
 import com.sansan.tool.api.user.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.StringUtils;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -31,6 +32,9 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object object) throws Exception {
         // 从 http 请求头中取出 token
         String token = httpServletRequest.getHeader("token");
+        if(StringUtils.isEmpty(token)){
+            token = httpServletRequest.getParameter("token");
+        }
         // 如果不是映射到方法直接通过
         if(!(object instanceof HandlerMethod)){
             return true;
